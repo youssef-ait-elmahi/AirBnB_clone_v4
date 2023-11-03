@@ -10,12 +10,13 @@
     <link rel="icon" href="{{ url_for('static', filename='images/icon.png', v=cache_id) }}" />
     <title>HBnB</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script type="text/javascript" src="{{ url_for('static', filename='scripts/1-hbnb.js', v=cache_id) }}"></script>
-</head>
+	<script type="text/javascript" src="{{ url_for('static', filename='scripts/2-hbnb.js', v=cache_id) }}"></script>
+  </head>
 
   <body>
     <header>
       <div class="logo"></div>
+	  <div id="api_status"></div>
     </header>
     <div class="container">
       <section class="filters">
