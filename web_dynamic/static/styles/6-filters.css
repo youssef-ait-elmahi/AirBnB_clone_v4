@@ -38,8 +38,12 @@ button:hover {
 .filters h4 {
     margin-left: 15%;
     margin-top: 0;
+    height: 15px;
     font-weight: 400;
     font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .locations {
     height: 100%;
